@@ -1,0 +1,124 @@
+<code><span class="array">[<span class="content">
+  <span class="tag">{
+    "<span class="param">created_at</span>": "<span class="param">Thu Sep 24 16:08:37 +0000 2015</span>",
+    "<span class="param">id</span>": 647080203756380200,
+    "<span class="param">id_str</span>": "<span class="param">647080203756380160</span>",
+    "<span class="param">text</span>": "<span class="param">"Información oportuna es lo más importante para dar ideas TIC que solucionen problemas del ciudadano de a pie" @MCarolinaHoyosT #Ciudades_i</span>",
+    "<span class="param">source</span>": "<span class="param"><a href="http://twitter.com/download/android" rel="nofollow">Twitter for Android</a></span>",
+    "<span class="param">truncated</span>": false,
+    "<span class="param">in_reply_to_status_id</span>": null,
+    "<span class="param">in_reply_to_status_id_str</span>": null,
+    "<span class="param">in_reply_to_user_id</span>": null,
+    "<span class="param">in_reply_to_user_id_str</span>": null,
+    "<span class="param">in_reply_to_screen_name</span>": null,
+    "<span class="param">user</span>": {
+      "<span class="param">id</span>": 142454580,
+      "<span class="param">id_str</span>": "<span class="param">142454580</span>",
+      "<span class="param">name</span>": "<span class="param">MinTIC</span>",
+      "<span class="param">screen_name</span>": "<span class="param">Ministerio_TIC</span>",
+      "<span class="param">location</span>": "<span class="param">Colombia</span>",
+      "<span class="param">description</span>": "<span class="param">Cumplimos lo que prometimos. Hoy el Plan #ViveDigital es una realidad http://t.co/yi7dW6HlON</span>",
+      "<span class="param">url</span>": "<span class="param">http://t.co/JrwT209U5H</span>",
+      "<span class="param">entities</span>": {
+        "<span class="param">url</span>": {
+          "<span class="param">urls</span>": [
+            {
+              "<span class="param">url</span>": "<span class="param">http://t.co/JrwT209U5H</span>",
+              "<span class="param">expanded_url</span>": "<span class="param">http://www.mintic.gov.co</span>",
+              "<span class="param">display_url</span>": "<span class="param">mintic.gov.co</span>",
+              "<span class="param">indices</span>": [
+                0,
+                22
+              ]
+            }
+          ]
+        },
+        "<span class="param">description</span>": {
+          "<span class="param">urls</span>": [
+            {
+              "<span class="param">url</span>": "<span class="param">http://t.co/yi7dW6HlON</span>",
+              "<span class="param">expanded_url</span>": "<span class="param">http://bit.ly/PlanViveDigital2018</span>",
+              "<span class="param">display_url</span>": "<span class="param">bit.ly/PlanViveDigita…</span>",
+              "<span class="param">indices</span>": [
+                70,
+                92
+              ]
+            }
+          ]
+        }
+      },
+      "<span class="param">protected</span>": false,
+      "<span class="param">followers_count</span>": 490603,
+      "<span class="param">friends_count</span>": 3630,
+      "<span class="param">listed_count</span>": 2157,
+      "<span class="param">created_at</span>": "<span class="param">Mon May 10 23:08:39 +0000 2010</span>",
+      "<span class="param">favourites_count</span>": 2582,
+      "<span class="param">utc_offset</span>": -18000,
+      "<span class="param">time_zone</span>": "<span class="param">Bogota</span>",
+      "<span class="param">geo_enabled</span>": true,
+      "<span class="param">verified</span>": true,
+      "<span class="param">statuses_count</span>": 67278,
+      "<span class="param">lang</span>": "<span class="param">es</span>",
+      "<span class="param">contributors_enabled</span>": false,
+      "<span class="param">is_translator</span>": false,
+      "<span class="param">is_translation_enabled</span>": false,
+      "<span class="param">profile_background_color</span>": "<span class="param">FCFCFC</span>",
+      "<span class="param">profile_background_image_url</span>": "<span class="param">http://pbs.twimg.com/profile_background_images/531828985588506624/Cpp9fqWP.png</span>",
+      "<span class="param">profile_background_image_url_https</span>": "<span class="param">https://pbs.twimg.com/profile_background_images/531828985588506624/Cpp9fqWP.png</span>",
+      "<span class="param">profile_background_tile</span>": true,
+      "<span class="param">profile_image_url</span>": "<span class="param">http://pbs.twimg.com/profile_images/646831264356372480/ah11nlO9_normal.png</span>",
+      "<span class="param">profile_image_url_https</span>": "<span class="param">https://pbs.twimg.com/profile_images/646831264356372480/ah11nlO9_normal.png</span>",
+      "<span class="param">profile_banner_url</span>": "<span class="param">https://pbs.twimg.com/profile_banners/142454580/1443029544</span>",
+      "<span class="param">profile_link_color</span>": "<span class="param">84329B</span>",
+      "<span class="param">profile_sidebar_border_color</span>": "<span class="param">000000</span>",
+      "<span class="param">profile_sidebar_fill_color</span>": "<span class="param">C0DFEC</span>",
+      "<span class="param">profile_text_color</span>": "<span class="param">333333</span>",
+      "<span class="param">profile_use_background_image</span>": true,
+      "<span class="param">has_extended_profile</span>": false,
+      "<span class="param">default_profile</span>": false,
+      "<span class="param">default_profile_image</span>": false,
+      "<span class="param">following</span>": true,
+      "<span class="param">follow_request_sent</span>": false,
+      "<span class="param">notifications</span>": false
+    },
+    "<span class="param">geo</span>": null,
+    "<span class="param">coordinates</span>": null,
+    "<span class="param">place</span>": null,
+    "<span class="param">contributors</span>": null,
+    "<span class="param">is_quote_status</span>": false,
+    "<span class="param">retweet_count</span>": 1,
+    "<span class="param">favorite_count</span>": 1,
+    "<span class="param">entities</span>": {
+      "<span class="param">hashtags</span>": [
+        {
+          "<span class="param">text</span>": "<span class="param">Ciudades_i</span>",
+          "<span class="param">indices</span>": [
+            128,
+            139
+          ]
+        }
+      ],
+      "<span class="param">symbols</span>": [],
+      "<span class="param">user_mentions</span>": [
+        {
+          "<span class="param">screen_name</span>": "<span class="param">MCarolinaHoyosT</span>",
+          "<span class="param">name</span>": "<span class="param">ViceMinistra TIC</span>",
+          "<span class="param">id</span>": 148183388,
+          "<span class="param">id_str</span>": "<span class="param">148183388</span>",
+          "<span class="param">indices</span>": [
+            111,
+            127
+          ]
+        }
+      ],
+      "<span class="param">urls</span>": []
+    },
+    "<span class="param">favorited</span>": false,
+    "<span class="param">retweeted</span>": false,
+    "<span class="param">lang</span>": "<span class="param">es</span>"
+  }</span>,
+  <span class="tag">{}</span>,
+  <span class="tag">{}</span>,
+  <span class="tag">{}</span>,
+  <span class="tag">{}</span>
+</span>]</span></code>
