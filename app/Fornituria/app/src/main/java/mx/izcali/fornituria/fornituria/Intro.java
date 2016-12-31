@@ -19,7 +19,7 @@ public class Intro extends AppCompatActivity {
      * {@link #AUTO_HIDE_DELAY_MILLIS} milliseconds.
      */
     private static final boolean AUTO_HIDE = true;
-
+    private String userEmail;
     /**
      * If {@link #AUTO_HIDE} is set, the number of milliseconds to wait after
      * user interaction before hiding the system UI.
@@ -89,7 +89,7 @@ public class Intro extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         setContentView(R.layout.activity_intro);
-
+        //userEmail = findViewById(R.id.emailUser);
         mVisible = true;
         mControlsView = findViewById(R.id.fullscreen_content_controls);
         mContentView = findViewById(R.id.fullscreen_content);
@@ -153,8 +153,9 @@ public class Intro extends AppCompatActivity {
         mHideHandler.postDelayed(mShowPart2Runnable, UI_ANIMATION_DELAY);
     }
     public void IniciarLog(View v){
-        Intent intent = new Intent(this, Log.class);
+        Intent intent = new Intent(this, MenuFornituria.class);
         startActivity(intent);
+
     }
     /**
      * Schedules a call to hide() in [delay] milliseconds, canceling any

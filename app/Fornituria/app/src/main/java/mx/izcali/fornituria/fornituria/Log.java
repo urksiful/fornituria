@@ -3,6 +3,7 @@ package mx.izcali.fornituria.fornituria;
 import android.animation.Animator;
 import android.animation.AnimatorListenerAdapter;
 import android.annotation.TargetApi;
+import android.content.Intent;
 import android.content.pm.PackageManager;
 import android.support.annotation.NonNull;
 import android.support.design.widget.Snackbar;
@@ -345,6 +346,11 @@ public class Log extends AppCompatActivity implements LoaderCallbacks<Cursor> {
         protected void onCancelled() {
             mAuthTask = null;
             showProgress(false);
+        }
+
+        public void newMenu(View v){
+            //Intent intent = new Intent(this, Log.class);
+            //startActivity(intent);
         }
     }
 }
