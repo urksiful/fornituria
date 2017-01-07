@@ -1,5 +1,6 @@
 package mx.izcali.fornituria.fornituria;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.support.design.widget.FloatingActionButton;
 import android.support.design.widget.Snackbar;
@@ -12,14 +13,27 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.widget.TextView;
+import android.widget.Toast;
 
-public class MenuFornituria extends AppCompatActivity
+import com.facebook.AccessToken;
+import com.facebook.login.LoginManager;
+
+public class MainActivity extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
+
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_menu_fornituria);
+        setContentView(R.layout.activity_main);
+
+        if(AccessToken.getCurrentAccessToken() == null){
+            goLogin();
+
+        }else{
+            Toast.makeText(getApplicationContext(), AccessToken.getCurrentAccessToken().toString(), Toast.LENGTH_LONG).show();
+        }
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
@@ -42,6 +56,12 @@ public class MenuFornituria extends AppCompatActivity
         navigationView.setNavigationItemSelectedListener(this);
     }
 
+    private void goLogin() {
+        Intent intent = new Intent(this, Log.class);
+        intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP | Intent.FLAG_ACTIVITY_CLEAR_TASK | Intent.FLAG_ACTIVITY_NEW_TASK);
+        startActivity(intent);
+    }
+
     @Override
     public void onBackPressed() {
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
@@ -55,7 +75,7 @@ public class MenuFornituria extends AppCompatActivity
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
-        getMenuInflater().inflate(R.menu.menu_fornituria, menu);
+        getMenuInflater().inflate(R.menu.main, menu);
         return true;
     }
 
@@ -97,5 +117,10 @@ public class MenuFornituria extends AppCompatActivity
         DrawerLayout drawer = (DrawerLayout) findViewById(R.id.drawer_layout);
         drawer.closeDrawer(GravityCompat.START);
         return true;
+    }
+
+    public void logout(View view) {
+        LoginManager.getInstance().logOut();
+        goLogin();
     }
 }
